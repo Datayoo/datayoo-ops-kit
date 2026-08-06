@@ -1,0 +1,106 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE / Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets/
+**/local.properties
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+
+# Build / package artifacts
+dist/
+build/
+out/
+target/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node (if scripts/docs tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Go
+vendor/
+
+# Local overrides
+*.local
+*.local.*
+
+# Archives / dumps
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.sql.gz
+*.dump
