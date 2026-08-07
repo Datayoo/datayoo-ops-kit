@@ -30,9 +30,10 @@
 ## 仓库目录
 
 ```text
-docs/          # 规范正文与说明
-scaffold/      # 算子工程脚手架（待补充）
-idea-plugin/   # IDEA 开发插件（待补充）
+docs/            # 规范正文与说明
+scaffold/        # 算子工程脚手架（待补充）
+idea-plugin/     # IDEA 开发插件（待补充）
+platform-deps/   # 平台私有依赖 lib + install-lib 脚本
 ```
 
 ## License
